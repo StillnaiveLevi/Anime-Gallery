@@ -1,0 +1,93 @@
+body{
+    background-image: url('../public/images/cardpfp/pfp2.jpg');
+}
+.header{
+    align-items: center;
+    color: aliceblue;
+}
+
+ul{
+    list-style-type: none;
+    display:flex;
+    justify-content: end;
+    margin: 0;
+    padding: 10px;
+    height: 100%;
+    overflow: auto; 
+}
+
+li a{
+    text-decoration: none;
+    border: solid;
+    display: block;
+    color: aliceblue;
+    padding: 8px 16px;
+}
+
+li a:hover{
+    background-color: red;
+    color: white;
+}
+
+.Animegallery{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 10px;
+    gap: 20px;
+}
+
+.gallery{
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery:hover{
+    transform: translateY(-10px);
+}
+
+.g1{
+    background-image: url('../public/images/cardpfp/photo_2025-11-19_09-09-06.jpg');
+    background-size: cover;
+    grid-row: span 15;
+}
+.g2{
+    background-image: url('../public/images/cardpfp/photo_2025-11-19_09-09-04.jpg');
+    background-size: cover;
+    grid-row: span 15;
+}
+.g3{
+    background-image: url('../public/images/cardpfp/photo_2025-11-19_09-09-02.jpg');
+    background-size: cover;
+    grid-row: span 15;
+}
+.g4{
+    background-image: url('../public/images/cardpfp/photo_2025-11-19_09-09-01.jpg');
+    background-size: cover;
+    grid-row: span 15;
+}
+.g5{
+    background-image: url('../public/images/cardpfp/photo_2025-11-19_09-08-59.jpg');
+    background-size: cover;
+    grid-row: span 15;
+}
+.g6{
+    background-image: url('../public/images/cardpfp/photo_2025-11-19_09-08-56.jpg');
+    background-size: cover;
+    grid-row: span 15;
+}
+.g7{
+    background-image: url('../public/images/cardpfp/photo_2025-11-19_09-08-54.jpg');
+    background-size: cover;
+    grid-row: span 15;
+}
+.g8{
+    background-image: url('../public/images/cardpfp/photo_2025-11-19_09-08-51.jpg');
+    background-size: cover;
+    grid-row: span 15;
+}

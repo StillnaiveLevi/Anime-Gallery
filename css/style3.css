@@ -1,0 +1,162 @@
+body{
+    background-image: url('../public/images/cardpfp/pfp2.jpg');
+    color: aliceblue;
+}
+
+p{
+   margin: 50px;
+}
+
+ul{
+    list-style-type: none;
+    display:flex;
+    justify-content: end;
+    margin: 0;
+    padding: 10px;
+    height: 100%;
+    overflow: auto; 
+}
+
+li a{
+    text-decoration: none;
+    border: solid;
+    display: block;
+    color: aliceblue;
+    padding: 8px 16px;
+}
+
+li a:hover{
+    background-color: red;
+    color: white;
+}
+
+.images{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-auto-rows: 10px;
+    gap: 20px;
+}
+
+.image{
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img1{
+    background-image: url('../public/images/aboutImages/pfp1.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-row: span 10;
+}
+.img2{
+    background-image: url('../public/images/aboutImages/pfp2.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-row: span 10;
+}
+.img3{
+    background-image: url('../public/images/aboutImages/pfp3.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-row: span 10;
+    
+}
+.img4{
+    background-image: url('../public/images/aboutImages/pfp4.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-row: span 10;
+}
+.img5{
+    background-image: url('../public/images/aboutImages/pfp5.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-row: span 10;
+}
+.img6{
+    background-image: url('../public/images/aboutImages/pfp6.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-row: span 10;
+}
+.img7{
+    background-image: url('../public/images/aboutImages/pfp7.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-row: span 10;
+}
+.img8{
+    background-image: url('../public/images/aboutImages/pfp8.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-row: span 10;
+}
+
+.img9{
+    background-image: url('../public/images/aboutImages/pfp9.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-row: span 10;
+}
+.img10{
+    background-image: url('../public/images/aboutImages/pfp10.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-row: span 10;
+}
+.img11{
+    background-image: url('../public/images/aboutImages/pfp11.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-row: span 10;
+}
+.img12{
+    background-image: url('../public/images/aboutImages/pfp12.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-row: span 10;
+}
+.img13{
+    background-image: url('../public/images/aboutImages/pfp13.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-row: span 10;
+}
+.img14{
+    background-image: url('../public/images/aboutImages/pfp14.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-row: span 10;
+}
+.img15{
+    background-image: url('../public/images/aboutImages/pfp15.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-row: span 10;
+}
+.img16{
+    background-image: url('../public/images/aboutImages/pfp16.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-row: span 10;
+}

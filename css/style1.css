@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url('../public/images/cardpfp/pfp2.jpg');
+    color: aliceblue;
+}
+ul{
+    list-style-type: none;
+    display:flex;
+    justify-content: end;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: auto; 
+}
+
+li a{
+    text-decoration: none;
+    border: solid;
+    display: block;
+    color: aliceblue;
+    padding: 8px 16px;
+}
+
+li a:hover{
+    background-color: red;
+    color: white;
+}
+
+header{
+    padding: 50px;
+}
+main{
+    padding: 100px;
+}
