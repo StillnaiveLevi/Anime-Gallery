@@ -163,7 +163,7 @@ li a:hover{
     grid-row: span 10;
 }
 
-@media(max-width: 768px){
+@media all and (max-width: 500px){
     .nav{
         font-size: 10px;
     }

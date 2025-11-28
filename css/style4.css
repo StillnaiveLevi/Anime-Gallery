@@ -60,7 +60,7 @@ input, textarea{
 }
 
 
-@media(max-width: 768px){
+@media all and (max-width: 500px){
     .nav{
         font-size: 7px;
     }

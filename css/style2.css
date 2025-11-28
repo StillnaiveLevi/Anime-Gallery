@@ -92,7 +92,7 @@ li a:hover{
     grid-row: span 15;
 }
 
-@media(max-width: 768px){
+@media all and (max-width: 500px){
     .Animegallery{
         grid-template-columns: repeat(2, 1fr);
     }
