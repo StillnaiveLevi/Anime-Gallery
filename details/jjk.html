@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detective Conan characters</title>
+    <title>JJK characters</title>
     <style>
         body{
             color: white;
             font-weight: bolder;
-            background-image: url('/public/images/jjk/jjkpfp.jpg');
+            background-image: url('/public/images/jjk/JJKpfp.jpg');
             background-size: cover;
             background-repeat: no-repeat;
         }
@@ -16,10 +16,13 @@
             padding: 50px;
         }
 
+        .nav{
+            justify-content: end;
+        }
+
         ul{
           list-style-type: none;
-          display:flex;
-          justify-content: end;
+          display: flex;
           margin: 0;
           padding: 0;
           height: 100%;
@@ -49,6 +52,26 @@
             align-items: flex-end;
             justify-content: center;
         }
+        @media(max-width: 768px){
+              body{
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+              }
+              .nav{
+                 font-size: 7px;
+               }
+               p{
+                 font-size: 10px;
+               }
+               footer{
+                 font-size: 10px;
+                 margin-top: 200px;
+               }
+               h1{
+                font-size: 20px;
+               }
+         }
     </style>
 </head>
 <body>
@@ -89,7 +112,11 @@
         Kento Nanami is a professional jujutsu sorcerer characterized by his pragmatic, disciplined nature and strong sense of duty. Unlike many sorcerers, he treats his work seriously, adhering to a strict 9-to-5 approach while maintaining exceptional combat skill. Nanami is calm, analytical, and reliable, often acting as a mentor and moral compass for Itadori. Beneath his composed exterior lies a compassionate side, showing care for his students and allies while confronting curses with precision and efficiency. Nanami’s balance of rationality, strength, and quiet heroism makes him a grounding presence in the chaotic world of jujutsu sorcery.</p>
     </div>
     <footer>
-        <h3 align="center">Created By: Anime lover</h3>
+        <div style="display: flex; flex-direction: row; justify-content: center; gap: 20px;">
+            <p>Created by: Merkeb Berhane</p>
+            <p>UGR/188454/16</p>
+            <p>Software Engineering</p>
+        </div>
     </footer>
 </body>
 </html>

@@ -8,7 +8,7 @@
         body{
             color: white;
             font-weight: bolder;
-            background-image: url('/public/images/aot/aotpfp.jpg');
+            background-image: url('/public/images/aot/AOTpfp.jpg');
             background-size: cover;
             background-repeat: no-repeat;
         }
@@ -17,10 +17,13 @@
             padding: 50px;
         }
 
+        .nav{
+            justify-content: end;
+        }
+
         ul{
           list-style-type: none;
           display:flex;
-          justify-content: end;
           margin: 0;
           padding: 0;
           height: 100%;
@@ -51,6 +54,26 @@
             align-items: flex-end;
             justify-content: center;
         }
+       @media(max-width: 768px){
+              body{
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+              }
+              .nav{
+                 font-size: 7px;
+               }
+               p{
+                 font-size: 10px;
+               }
+               footer{
+                 font-size: 10px;
+                 margin-top: 200px;
+               }
+               h1{
+                font-size: 20px;
+               }
+         }
     </style>
 </head>
 <body>
@@ -96,7 +119,11 @@
          Mikasa Ackerman’s strength is both physical and emotional, shaped by her tragic past and her unwavering loyalty to those she loves. As an Ackerman, she possesses extraordinary combat abilities, mastering her gear and defeating Titans with unmatched precision. However, her true depth comes from her quiet but powerful emotional core. Much of her motivation centers around protecting Eren, who gave her a sense of belonging when she had none. Despite her stoic personality, Mikasa feels deeply and struggles with the fear of losing the people she cares about. Throughout the series, she grows from a protective companion into an independent warrior who learns to make decisions for herself. Her character embodies resilience, devotion, and the challenge of balancing personal love with the brutal demands of survival.</p>
     </div>
     <footer>
-        <h3 align="center">Created By: Anime lover</h3>
+        <div style="display: flex; flex-direction: row; justify-content: center; gap: 20px;">
+            <p>Created by: Merkeb Berhane</p>
+            <p>UGR/188454/16</p>
+            <p>Software Engineering</p>
+        </div>
     </footer>
 </body>
 </html>

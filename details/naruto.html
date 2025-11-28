@@ -6,14 +6,18 @@
     <title>Naruto characters</title>
     <style>
         body{
-            color: black;
+            color: white;
             font-weight: bolder;
-            background-image: url('/public/images/naruto/pfp.jpg');
+            background-image: url('/public/images/naruto/Narutopfp.jpg');
             background-size: cover;
             background-repeat: no-repeat;
         }
         header{
             padding: 50px;
+        }
+
+        .nav{
+            justify-content: end;
         }
 
         ul{
@@ -30,7 +34,7 @@
            text-decoration: none;
            border: solid;
            display: block;
-           color: black;
+           color: white;
            padding: 8px 16px;
         }
 
@@ -50,6 +54,26 @@
             align-items: flex-end;
             justify-content: center;
         }
+        @media(max-width: 768px){
+              body{
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+              }
+              .nav{
+                 font-size: 7px;
+               }
+               p{
+                 font-size: 10px;
+               }
+               footer{
+                 font-size: 10px;
+                 margin-top: 200px;
+               }
+               h1{
+                font-size: 20px;
+               }
+         }
     </style>
 </head>
 <body>
@@ -100,7 +124,11 @@
          Shikamaru Nara is the brilliant strategist known for his sharp mind, lazy attitude, and unmatched ability to think several steps ahead of any opponent. Though often calling things “troublesome,” Shikamaru’s calm logic, loyalty, and intuition make him an invaluable ninja and a trusted friend. His mastery of the Nara clan’s shadow techniques, combined with his tactical genius, allows him to outsmart even the strongest enemies. Shikamaru’s growth from a relaxed student into a responsible leader showcases his quiet strength. He represents intelligence, maturity, and the idea that true power often lies in the mind rather than sheer force.</p>
     </div>
     <footer>
-        <h3 align="center">Created By: Anime lover</h3>
+        <div style="display: flex; flex-direction: row; justify-content: center; gap: 20px; ">
+            <p>Created by: Merkeb Berhane</p>
+            <p>UGR/188454/16</p>
+            <p>Software Engineering</p>
+        </div>
     </footer>
 </body>
 </html>

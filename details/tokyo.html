@@ -10,14 +10,18 @@
             margin: 0;
         }
         body{
-            color: black;
+            color: white;
             font-weight: bolder;
-            background-image: url('/public/images/tokyoGhouls/tokyopfp.jpg');
+            background-image: url('/public/images/tokyoGhouls/kanekipfp.jpg');
             background-size: cover;
             background-repeat: no-repeat;
         }
          header{
             padding: 50px;
+        }
+
+        .nav{
+            justify-content: end;
         }
 
         ul{
@@ -34,13 +38,13 @@
            text-decoration: none;
            border: solid;
            display: block;
-           color: black;
+           color: white;
            padding: 8px 16px;
         }
 
         li a:hover{
-           background-color: black;
-           color: white;
+           background-color: white;
+           color: black;
         }
         img{
             width: 100px;
@@ -53,6 +57,25 @@
             align-items: flex-end;
             justify-content: center;
         }
+        @media(max-width: 768px){
+              body{
+                background-size: cover;
+                background-repeat:repeat;
+              }
+              .nav{
+                 font-size: 7px;
+               }
+               p{
+                 font-size: 10px;
+               }
+               footer{
+                 font-size: 10px;
+                 margin-top: 200px;
+               }
+               h1{
+                font-size: 20px;
+               }
+         }
     </style>
 </head>
 <body>
@@ -88,7 +111,11 @@
        Juuzou Suzuya is one of the most striking and unpredictable characters in Tokyo Ghoul, known for his childlike demeanor, eerie calmness, and lethal combat skills. Raised under brutal conditions that shaped him into a detached and emotionally stunted individual, Juuzou initially appears as an almost playful but terrifying investigator who treats battles like games. Despite his traumatic upbringing, he grows significantly through his relationships with mentors like Shinohara, who guide him toward finding humanity and stability. Juuzou’s agility, creativity in combat, and fearlessness make him a formidable opponent on the battlefield, while his gradual emotional development adds depth to his character. He is both unsettling and sympathetic, embodying the blurred line between innocence and violence that defines the world of Tokyo Ghoul.</p>
     </div>
      <footer>
-        <h3 align="center">Created By: Anime lover</h3>
+        <div style="display: flex; flex-direction: row; justify-content: center; gap: 20px;">
+            <p>Created by: Merkeb Berhane</p>
+            <p>UGR/188454/16</p>
+            <p>Software Engineering</p>
+        </div>
     </footer>
 </body>
 </html>

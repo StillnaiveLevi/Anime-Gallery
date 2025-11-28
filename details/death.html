@@ -8,12 +8,16 @@
         body{
             color: white;
             font-weight: bolder;
-            background-image: url('/public/images/deathNote/deathpfp.jpg');
+            background-image: url('/public/images/deathNote/deathNotepfp.jpg');
             background-size: cover;
             background-repeat: no-repeat;
         }
          header{
             padding: 50px;
+        }
+
+        .nav{
+            justify-content: end;
         }
 
         ul{
@@ -35,8 +39,8 @@
         }
 
         li a:hover{
-           background-color: black;
-           color: white;
+           background-color: white;
+           color: black;
         }
         img{
             width: 100px;
@@ -49,6 +53,26 @@
             align-items: flex-end;
             justify-content: center;
         }
+        @media(max-width: 768px){
+              body{
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+              }
+              .nav{
+                 font-size: 7px;
+               }
+               p{
+                 font-size: 10px;
+               }
+               footer{
+                 font-size: 10px;
+                 margin-top: 200px;
+               }
+               h1{
+                font-size: 20px;
+               }
+         }
     </style>
 </head>
 <body>
@@ -84,7 +108,11 @@
         Ryuk is the Shinigami who drops the Death Note into the human world out of sheer boredom, setting the entire story in motion. Unlike many supernatural beings in anime, Ryuk is neither good nor evil, he simply finds entertainment in watching humans make choices, create chaos, and face the consequences. His dry humor, mischievous grin, and constant craving for apples make him an unforgettable presence. Though he never interferes directly with Light’s decisions, Ryuk observes everything with amused detachment, offering occasional commentary but always reminding Light that he is not a friend, only an observer. In many ways, Ryuk represents the unpredictability and moral ambiguity of the Death Note itself, watching the rise and fall of Kira with the curiosity of someone watching a game unfold.</p>
     </div>
     <footer>
-        <h3 align="center">Created By: Anime lover</h3>
+        <div style="display: flex; flex-direction: row; justify-content: center; gap: 20px;">
+            <p>Created by: Merkeb Berhane</p>
+            <p>UGR/188454/16</p>
+            <p>Software Engineering</p>
+        </div>
     </footer>
 </body>
 </html>

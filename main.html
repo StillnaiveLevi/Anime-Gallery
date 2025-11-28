@@ -8,7 +8,9 @@
         body{
     display: flex;
     flex-direction: column;
-    background-image: url('../public/images/cardpfp/pfp2.jpg');
+    background-image: url('./public/images/cardpfp/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     color: aliceblue;
 }
 ul{
@@ -30,8 +32,8 @@ li a{
 }
 
 li a:hover{
-    background-color: red;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 header{
@@ -39,6 +41,19 @@ header{
 }
 main{
     padding: 100px;
+}
+
+@media(max-width: 768px){
+    .nav{
+        font-size: 7px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    footer{
+        margin-top: 100px;
+        font-size: 10px;
+    }
 }
     </style>
 </head>
@@ -64,7 +79,11 @@ main{
       </div>
     </main>
     <footer>
-        <h3 align="center">Created By: Anime lover</h3>
+       <div style="display: flex; flex-direction: row; justify-content: center; gap:20px;">
+            <p>Created by: Merkeb Berhane</p>
+            <p>UGR/188454/16</p>
+            <p>Software Engineering</p>
+        </div>
     </footer>
 </body>
 </html>

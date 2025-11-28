@@ -6,7 +6,7 @@
     <title>Bayblade characters</title>
     <style>
         body{
-            color: black;
+            color: white;
             font-weight: bolder;
             background-image: url('/public/images/bayblade/baybladepfp.jpg');
             background-size: cover;
@@ -15,6 +15,10 @@
 
         header{
             padding: 50px;
+        }
+
+        .nav{
+            justify-content: end;
         }
 
         ul{
@@ -31,13 +35,13 @@
            text-decoration: none;
            border: solid;
            display: block;
-           color: black;
+           color: white;
            padding: 8px 16px;
         }
 
         li a:hover{
-           background-color: black;
-           color: white;
+           background-color: white;
+           color: black;
         }
 
         img{
@@ -51,6 +55,26 @@
             align-items: flex-end;
             justify-content: center;
         }
+        @media(max-width: 768px){
+              body{
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+              }
+              .nav{
+                 font-size: 7px;
+               }
+               p{
+                 font-size: 10px;
+               }
+               footer{
+                 font-size: 10px;
+                 margin-top: 200px;
+               }
+               h1{
+                font-size: 20px;
+               }
+         }
     </style>
 </head>
 <body>
@@ -86,7 +110,11 @@
         Shu Kurenai is one of the top bladers in Beyblade Burst. He is calm, intelligent, and always focused on improving himself. His quiet personality makes him mysterious, but he cares deeply for his friends, especially Valt Aoi.Shu’s Beyblade is Spriggan, a balanced-type Bey known for power and versatility. Throughout the series, Shu upgrades Spriggan many times, each version becoming stronger and more dangerous in battle.Shu is both a rival and friend to Valt. His dedication pushes him to extreme levels, even turning dark at one point. Despite this, he always finds his way back and becomes one of the strongest bladers in the world.</p>
     </div>
      <footer>
-        <h3 align="center">Created By: Anime lover</h3>
+        <div style="display: flex; flex-direction: row; justify-content: center; gap: 20px;">
+            <p>Created by: Merkeb Berhane</p>
+            <p>UGR/188454/16</p>
+            <p>Software Engineering</p>
+        </div>
     </footer>
 </body>
 </html>

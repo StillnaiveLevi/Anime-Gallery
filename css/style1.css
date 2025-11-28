@@ -1,7 +1,9 @@
 body{
     display: flex;
     flex-direction: column;
-    background-image: url('../public/images/cardpfp/pfp2.jpg');
+    background-image: url('../public/images/cardpfp/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     color: aliceblue;
 }
 ul{
@@ -32,4 +34,27 @@ header{
 }
 main{
     padding: 100px;
+}
+
+#myInfo{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+@media(max-width: 768px){
+    .nav{
+        font-size: 7px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    p{
+        padding: 5px;
+        font-size: 10px;
+    }
+    footer{
+        font-size: 10px;
+    }
 }

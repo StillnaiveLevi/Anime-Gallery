@@ -1,5 +1,7 @@
 body{
-    background-image: url('../public/images/cardpfp/pfp2.jpg');
+    background-image: url('../public/images/cardpfp/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     color: aliceblue;
 }
 
@@ -26,8 +28,8 @@ li a{
 }
 
 li a:hover{
-    background-color: red;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 .images{
@@ -159,4 +161,20 @@ li a:hover{
     background-position: center;
     background-repeat: no-repeat;
     grid-row: span 10;
+}
+
+@media(max-width: 768px){
+    .nav{
+        font-size: 10px;
+    }
+    p{
+        font-size: 10px;
+    }
+    .images{
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+    }
+    footer{
+        font-size: 10px;
+    }
 }

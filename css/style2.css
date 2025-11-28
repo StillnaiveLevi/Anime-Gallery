@@ -1,5 +1,5 @@
 body{
-    background-image: url('../public/images/cardpfp/pfp2.jpg');
+    background-image: url('../public/images/cardpfp/background.jpg');
 }
 .header{
     align-items: center;
@@ -25,8 +25,8 @@ li a{
 }
 
 li a:hover{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 .Animegallery{
@@ -90,4 +90,17 @@ li a:hover{
     background-image: url('../public/images/cardpfp/photo_2025-11-19_09-08-51.jpg');
     background-size: cover;
     grid-row: span 15;
+}
+
+@media(max-width: 768px){
+    .Animegallery{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .nav{
+        font-size: 10px;
+    }
+    footer{
+        margin-top: 200px;
+        font-size: 10px;
+    }
 }
